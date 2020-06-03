@@ -1,6 +1,7 @@
 [CmdletBinding()]
 Param(
    [Parameter(Mandatory=$False)]
-   [string]$pw,
+   [string]$pw
+   )
 write-host "Testing Build Task"
 write-host $pw
